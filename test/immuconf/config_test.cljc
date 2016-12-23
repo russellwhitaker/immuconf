@@ -1,5 +1,10 @@
 (ns immuconf.config-test
-  "Main test suite for immuconf.config"
+  "Main test suite for immuconf.config
+   To invoke Clojure tests:
+   % lein test
+   To invoke ClojureScript tests:
+   % lein doo node immuconf-test once
+  "
   (:require #?(:clj  [clojure.test :refer :all]
                :cljs [cljs.test :refer-macros [deftest is]])
             #?(:clj  [clojure.tools.logging :as log])
