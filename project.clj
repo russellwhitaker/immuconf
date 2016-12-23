@@ -1,4 +1,4 @@
-(defproject russellwhitaker/immuconf "0.2.2"
+(defproject russellwhitaker/immuconf "0.3.0"
   :description "Manage config files 12Factor style in Clojure/ClojureScript projects"
   :url "http://github.com/russellwhitaker/immuconf"
   :license {:name "Eclipse Public License"
